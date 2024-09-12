@@ -1,0 +1,738 @@
+@media screen and (max-width:991px) {
+  /* global classes */
+  html{
+    font-size: 14px;
+  }
+  body{
+    width: 100%;
+    margin-inline: auto;
+  }
+  h1{
+    font-size: 4rem;
+    line-height: 4.5rem;
+ 
+  }
+  h2{
+    font-size: 2rem;
+    line-height: 2.5rem;
+
+  }
+  h3{
+    font-size: 1.5rem;
+    line-height:2rem;
+  }
+  h4{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+  p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  a{
+    font-size: .9rem;
+    line-height: 1.2rem;
+  }
+  section{
+    padding-block: 4rem;
+  }
+  .container{
+    width: 80%;
+    margin: auto;
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+  }
+  .primary-button, .submit{
+    padding: .6rem 1rem;
+    font-size: .8rem;
+  }
+  .padding-bottom{
+    padding-bottom: 5rem;
+  }
+
+  /* header section  */
+  .nav-bar{
+    width: 70%;
+    justify-content: space-between;
+  }
+  .logo{
+    width: 12%;
+  }
+  nav{
+    display: none;
+  }
+  nav a{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+    font-size: 1.5rem;
+    position: relative;
+    right: 35%;
+    cursor: pointer;
+  }
+
+
+  /* hero section  */
+.hero-section{
+  margin-top:-5rem;
+}
+.hero-part{
+  height: 45vw;
+}
+.hero-content h1{
+  padding-bottom: 4rem;
+}
+/* welcome section  */
+.welcome-content{
+  gap: 1rem;
+  align-items: flex-start;
+  width: 44%;
+}
+.welcome-img{
+  width:50%;
+}
+/* servive section  */
+.servive-part{
+  height: 45vw;
+
+}
+.servive-area{
+  width: 45%;
+  align-items: start;
+  gap: 1rem;
+}
+.servive-area h3{
+margin-block: -5rem -1rem;
+}
+.servive-box{
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.servive-content{
+  width: 80%;
+  align-items: start;
+  gap: .5rem;
+}
+.servive-icon{
+  width: 12%;
+  text-align: start;
+  padding: 0rem;
+}
+/* fitness coach section  */
+.coach-content{
+  gap: .5rem;
+  margin-top: -1.5rem;
+  height:4rem;
+}
+.coach-content p{
+  font-size: .9rem;
+}
+
+/* 25% discount section first part */
+.first-part{
+  gap: 2rem;
+  height: 30vw;
+  padding: 3rem;
+
+}
+
+.first-part h2{
+  font-size: 3rem;
+}
+.first-part h3{
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+.discoun-form1{
+  gap: 2rem;
+}
+.discoun-form1 input{
+  padding: .8rem;
+}
+.email{
+  width: 30rem;
+}
+/* 25% discount section second part */
+.second-part{
+  padding: 5% 10%;
+}
+.second-part-left{
+  align-items: start;
+  gap: 2rem;
+  max-width: 50%;
+}
+.bmi-box{
+  max-width: 28%;
+}
+.second-part-left label{
+  display: block;
+  padding-bottom: .5rem;
+  font-weight: bold;
+  font-size: .8rem;
+  
+}
+.second-part-right{
+  width: 50%;
+  text-align: end;
+}
+.second-part-right img{
+  width: 100%;
+}
+.discoun-form2{
+  width: 100%;
+  gap: 1.5rem;
+
+}
+.discoun-form2 input{
+  padding:.8rem .3rem;
+}
+
+.submitting input{
+  font-size: 1rem;
+}
+
+/* client section  */
+
+
+.client-box img{
+  align-self: start;
+  max-width: 30%;
+}
+.client-content{
+  flex-direction: column;
+  gap: .8rem;
+  align-items: flex-start;
+}
+/* 50% discount part  */
+.discount-50-part{
+  height: 40vw;
+}
+.discount-50-box{
+  gap: 2rem;
+  width: 65%;
+}
+
+.discount-50-box h3{
+  line-height: 2.5rem;
+}
+/* footer section  */
+.footer-part{
+  background-color: var(--secondary-color);
+  padding: 5rem;
+}
+.footer-first-part{
+  justify-content: space-between;
+  align-items: start;
+
+}
+.footerfirst-part-box{
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.number{
+  font-size: 1.5rem;
+}
+.footer-form{
+  width: 100%;
+}
+.footer-form input{
+  padding: .5rem;
+}
+
+.footer-form a{
+  border-radius: 0;
+}
+.footer-second-part{
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+.footer-icon{
+  width: 25%;
+}
+.footer-second-part i{
+  font-size: 1.2rem;
+}
+
+
+
+}
+
+@media screen and (max-width:767px) {
+
+  html{
+    font-size: 12px;
+  }
+  body{
+    width: 100%;
+    margin-inline: auto;
+  }
+  h1{
+    font-size: 3.5rem;
+    line-height: 4rem;
+ 
+  }
+  h2{
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+
+  }
+  h3{
+    font-size: 1.5rem;
+    line-height:1.6rem;
+  }
+  h4{
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
+  p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  a{
+    font-size: .9rem;
+    line-height: 1.2rem;
+  }
+  section{
+    padding-block: 3rem;
+  }
+  .container{
+    width: 80%;
+    margin: auto;
+  }
+
+  .primary-button, .submit{
+    padding: .5rem .7rem;
+    font-size: .8rem;
+  }
+  .padding-bottom{
+    padding-bottom: 5rem;
+  }
+  /* header section  */
+  .nav-bar{
+    width: 70%;
+  }
+    /* hero section  */
+.hero-section{
+  margin-top:-5rem;
+}
+.hero-part{
+  height: 50vw;
+}
+.hero-content h1{
+  padding-bottom: 3.5rem;
+}
+/* servive section  */
+.servive-part{
+  height: 50vw;
+  padding-block: 10%;
+  padding-left: 20%;
+}
+.servive-area{
+  width: 80%;
+  align-items: start;
+  gap: 1rem;
+}
+.servive-area h3{
+margin-block: -5rem -1rem;
+}
+.servive-box{
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.servive-content{
+  width: 75%;
+
+}
+.servive-icon{
+  width: 13%;
+}
+
+/* 25% discount section first part */
+.first-part{
+  gap: 1.5rem;
+  height: 30vw;
+
+}
+
+.first-part h2{
+  font-size: 2.7rem;
+}
+.first-part h3{
+  line-height: 2.2rem;
+}
+.discoun-form1{
+  gap: 1rem;
+}
+.discoun-form1 input{
+  padding: .5rem;
+}
+.email{
+  width: 30rem;
+}
+/* 25% discount section second part */
+.second-part{
+  padding: 5% 10%;
+}
+.second-part-left{
+  gap: 1.5rem;
+  max-width: 50%;
+}
+.bmi-box{
+  max-width: 40%;
+}
+.second-part-left label{
+  padding-bottom: .5rem;
+}
+.second-part-right{
+  width: 50%;
+  text-align: end;
+}
+.second-part-right img{
+  width: 100%;
+}
+.discoun-form2{
+  width: 100%;
+  gap: 1.5rem;
+
+}
+.discoun-form2 input{
+  padding: .5rem .3rem;
+}
+
+.submitting input{
+  font-size: 1rem;
+}
+/* client section  */
+
+.client-box{
+  flex-direction: column;
+}
+.client-box img{
+  align-self: center;
+}
+.client-content{
+  gap: .5rem;
+  align-items:center;
+}
+.client-content p{
+  text-align: center;
+}
+/* 50% discount part  */
+.discount-50-part{
+  height: 50vw;
+}
+.discount-50-box{
+  gap: 1.5rem;
+}
+/* footer section  */
+.footer-second-part i{
+  font-size: 1rem;
+}
+.number{
+  font-size: 1.1rem;
+}
+
+}
+
+@media screen and (max-width:600px) {
+  html{
+    font-size: 10px;
+  }
+  h1{
+    font-size: 3rem;
+    line-height: 3.5rem;
+ 
+  }
+  h2{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+
+  }
+  h3{
+    font-size: 1.5rem;
+    line-height:1.6rem;
+  }
+  h4{
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
+  p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  a{
+    font-size: .9rem;
+    line-height: 1.2rem;
+  }
+  section{
+    padding-block: 3rem;
+  }
+  .container{
+    width: 80%;
+    margin: auto;
+  }
+
+  .primary-button, .submit{
+    padding: .5rem;
+    font-size: .7rem;
+  }
+  .padding-bottom{
+    padding-bottom: 4rem;
+  }
+  /* header section  */
+  .nav-bar{
+    width: 70%;
+  }
+
+    /* hero section  */
+.hero-section{
+  margin-top:-5rem;
+}
+.hero-part{
+  height: 35vh;
+}
+.hero-content h1{
+  padding-bottom: 3rem;
+}
+/* welcome section  */
+.welcome{
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  gap: 2rem;
+}
+.welcome-content{
+
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  width: 100%;
+}
+.welcome-img{
+  width: 100%;
+  
+}
+
+/* improve section */
+.improve-part{
+  flex-direction: column;
+  gap: 5rem;
+}
+.improve-box{
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+
+/* servive section  */
+
+.servive-part{
+  height: 35vh;
+}
+.servive-area{
+  width: 55%;
+  align-items: start;
+  gap: 1rem;
+}
+.servive-area h3{
+margin-block: -5rem -1rem;
+}
+.servive-box{
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.servive-content{
+  width: 75%;
+
+}
+.servive-icon{
+  width: 13%;
+}
+
+/* fitness coach section  */
+.coach-area{
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 4rem;
+
+}
+.coach-box{
+  width: 100%;
+}
+.coach-box img{
+  width:  100%;
+}
+.coach-content{
+  gap: 1rem;
+  height: 7rem;
+  margin-top: -2.5rem;
+}
+/* 25% discount section first part */
+.first-part{
+  gap: 1.5rem;
+  height: 25vh;
+
+}
+
+.first-part h2{
+  font-size: 2.2rem;
+}
+.first-part h3{
+  line-height: 1.5rem;
+}
+.discoun-form1{
+  gap: 1rem;
+  width: 100%;
+}
+.discoun-form1 input{
+  padding: .5rem;
+}
+.email{
+  width: 100%;
+}
+.email::placeholder{
+  font-weight: 500;
+  font-size: 1rem;
+}
+/* 25% discount section second part */
+.second-part{
+  padding: 5% 10%;
+  flex-direction: column-reverse;
+  gap: 3rem;
+}
+.second-part-left{
+  gap: 1.5rem;
+  max-width: 100%;
+}
+.bmi-box{
+  max-width: 40%;
+}
+.second-part-left label{
+  padding-bottom: .5rem;
+}
+.second-part-right{
+  width: 100%;
+  text-align: end;
+}
+.second-part-right img{
+  width: 100%;
+}
+.discoun-form2{
+  width: 100%;
+  gap: 1.5rem;
+
+}
+.discoun-form2 input{
+  padding: .5rem .3rem;
+}
+
+.submitting input{
+  font-size: 1rem;
+}
+/* client section  */
+.client-area{
+  flex-direction: column;
+  gap: 3rem;
+}
+.client-box{
+  flex-direction: column;
+  width: 100%;
+}
+.client-box img{
+  align-self: center;
+  width: 15%;
+}
+.client-content{
+  gap: .5rem;
+  align-items:center;
+}
+.client-content p{
+  text-align: center;
+}
+/* 50% discount part  */
+.discount-50-part{
+  height: 35vh;
+}
+.discount-50-box{
+  gap: 1.5rem;
+  width: 80%;
+}
+/* footer section  */
+.footer-first-part{
+  flex-direction: column;
+  gap: 3rem;
+}
+.footerfirst-part-box{
+  width: 100%;
+}
+.footer-second-part{
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-second-part i{
+  font-size: 1rem;
+}
+.footer-first-part input::placeholder{
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+}
+@media screen and (max-width:500px) {
+  h1{
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  h2{
+    font-size: 1.7rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  .hero-part{
+    height: 60vw;
+    background-position: 60% 0%;
+    width: 100%;
+  }
+  .hero-content h1{
+    padding-bottom: 2rem;
+  }
+  /* servive section  */
+  .servive-part{
+    height: 60vw;
+  }
+  .servive-area{
+  width: 100%;
+  gap: 1rem;
+}
+.servive-area h3{
+  padding-block: 0rem 0rem;
+
+}
+.servive-box{
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.servive-box h4, .servive-box p, .servive-area h3{
+  color: var(--secondary-text-color);
+}
+.servive-icon{
+  width: 10%;
+  text-align: start;
+}
+.servive-icon img{
+  width: 100%;
+}
+.servive-content{
+  flex-direction: column;
+  width: 70%;
+  align-items: start;
+  gap:.5rem;
+  padding-inline: 0rem;
+}
+
+}

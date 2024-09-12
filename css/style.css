@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* univer selector  */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+}
+
+/* variables  */
+
+:root{
+  --primary-color:#26bbd6;
+  --secondary-color:#eefafc;
+
+  --primary-text-color:#242424;
+  --secondary-text-color:#ffffff;
+  
+}
+
+/* global classes */
+body{
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  max-width: 2560px;
+}
+h1{
+  font-size: 6rem;
+  line-height: 6.5rem;
+  color: var(--primary-text-color);
+}
+h2{
+  font-size: 3rem;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+h3{
+  font-size: 2.5rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+h4{
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+p{
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: var(--primary-text-color);
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+  text-align: center;
+}
+section{
+  padding-block: 5rem;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.primary-button, .submit{
+  padding: .8rem 1.6rem;
+  background-color: var(--primary-color);
+  border-radius: .3rem;
+  color: var(--secondary-text-color);
+
+}
+.padding-bottom{
+  padding-bottom: 7rem;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+/* header section */
+
+  /* nav-bar part  */
+.nav-bar{
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  padding-inline: 2rem;
+  position: relative;
+  width: 70%;
+  margin: auto;
+  z-index: 5;
+  border-radius: 8px;
+  height: 5rem;
+}
+.logo{
+  width: 10%;
+}
+nav{
+justify-content: space-between;
+  width: 60%;
+}
+nav a{
+  transition: all .2s;
+}
+.nav-bar a{
+  max-width: 15%;
+}
+nav a:hover{
+  color: var(--primary-color);
+}
+.hamburger{
+  display: none;
+}
+/* hero section  */
+.hero-section{
+  margin-top:-6.5rem;
+
+}
+.hero-part{
+  height: 40vw;
+  background-image: linear-gradient(to right, rgb(38, 187, 214, 1)0%, rgb(38, 187, 214, 0)50%, rgb(38, 187, 214, 0)85%, rgb(38, 187, 214, 1)100%), url(/assets/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.hero-content{
+  width: 50%;
+  text-align: end;
+
+}
+.hero-content span{
+  color: var(--primary-color);
+}
+.hero-content h1{
+  color: var(--secondary-text-color);
+  padding-bottom: 5rem;
+  text-shadow: 4px 4px 10px var(--primary-text-color);
+}
+/* welcome section  */
+.welcome{
+  justify-content: space-between;
+}
+.welcome-content{
+
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  width: 37%;
+}
+.welcome-img{
+  width: 40%;
+  
+}
+.welcome-img img{
+  width: 100%;
+  height: auto;
+  
+}
+/* improve section */
+.improve-section h2{
+  text-align: center;
+}
+.improve-part{
+  justify-content: space-between;
+}
+.improve-box{
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 30%;
+  text-align: center;
+}
+.improve-box img{
+  width: 100%;
+}
+/* servive section  */
+.servive-part{
+  height: 40vw;
+  background-image: linear-gradient(to left, rgb(38, 187, 214, 1)0%, rgb(38, 187, 214, 0)80%), url(/assets/service.png);
+  background-position: 1% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+ justify-content: end;
+ align-items: start;
+ 
+}
+.servive-area{
+  flex-direction: column;
+  width: 41%;
+  justify-content: space-between;
+  align-items: start;
+  gap: 4rem;
+}
+.servive-area h3{
+  padding-block: 6rem 2rem;
+
+}
+.servive-box{
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.servive-box h4, .servive-box p, .servive-area h3{
+  color: var(--secondary-text-color);
+}
+.servive-icon{
+  width: 10%;
+  text-align: start;
+}
+.servive-icon img{
+  width: 100%;
+}
+.servive-content{
+  flex-direction: column;
+  width: 70%;
+  align-items: start;
+  gap: 1.5rem;
+  padding-inline: 2rem;
+}
+/* fitness coach section  */
+.coach-part h2{
+  text-align: center;
+}
+.coach-area{
+  justify-content: space-between;
+
+}
+.coach-box{
+  width: 23%;
+}
+.coach-box img{
+  width:  100%;
+}
+.coach-content{
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 5;
+  box-shadow: .5px 4px 4px 1px rgb(191, 191, 191);
+  text-align: center;
+  height: 7rem;
+  justify-content: center;
+  margin-top: -2.5rem;
+}
+.coach-content p{
+  text-transform: uppercase;
+}
+/* 25% discount section first part */
+.first-part{
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+  background-image: linear-gradient( rgb(38, 187, 214, .5),rgb(38, 187, 214, .5)), url(../assets/discount25-1.png);
+  height: 30vw;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size:cover;
+  justify-content: center;
+}
+.first-part h2, .first-part h3{
+  color: var(--secondary-text-color);
+
+}
+.first-part h2{
+  font-size: 4rem;
+}
+.first-part h3{
+  font-weight: 400;
+  line-height: 3.5rem;
+}
+.discoun-form1{
+  justify-content:center;
+  width: 60%;
+  gap: 2rem;
+}
+.discoun-form1 input{
+  padding: 1rem;
+}
+.email{
+  width: 80%;
+
+}
+input::placeholder{
+  font-weight: bold;
+}
+.submit{
+  width: 20%;
+  cursor: pointer;
+  border-radius: 0px;
+}
+/* 25% discount section second part */
+.second-part{
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  padding: 5% 10%;
+}
+.second-part-left{
+  flex-direction: column;
+  align-items: start;
+  gap: 3rem;
+  max-width: 50%;
+}
+.bmi-box{
+  max-width: 28%;
+}
+.second-part-left label{
+  display: block;
+  padding-bottom: .5rem;
+  font-weight: bold;
+}
+.second-part-right{
+  width: 45%;
+  text-align: end;
+}
+.second-part-right img{
+  width: 100%;
+}
+.discoun-form2{
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 3rem;
+
+}
+.discoun-form2 input{
+  padding: 1rem;
+  width: 90%;
+  display: block;
+  height: 3.5rem;
+  font-size: 1rem;
+}
+
+.submitting input{
+  font-size: 1.2rem;
+  width: 100%;
+  border-radius: 0px;
+}
+
+/* client section  */
+.client-part h2{
+  text-align: center;
+
+}
+.client-area{
+  justify-content: space-between;
+}
+.client-box{
+  gap: 1.5rem;
+  width: 30%;
+  padding:1rem .5rem;
+  background-color: var(--secondary-color);
+
+}
+.client-box img{
+  align-self: start;
+}
+.client-content{
+  flex-direction: column;
+  gap: .5rem;
+  align-items: flex-start;
+}
+.client-box p:nth-child(2){
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.client-box p:nth-child(3){
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: .9rem;
+}
+/* 50% discount part  */
+.discount-50-part{
+  height: 30vw;
+  flex-direction: column;
+  text-align: center;
+  background-image: linear-gradient( rgb(38, 187, 214, .5),rgb(38, 187, 214, .5)), url(../assets/discount50.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  justify-content: center;
+}
+.discount-50-box{
+  flex-direction: column;
+  gap: 3rem;
+  width: 65%;
+}
+.discount-50-box h3, .discount-50-box p{
+  color: var(--secondary-text-color);
+}
+.discount-50-box h3{
+  width: 60%;
+}
+.discount-50-box h3 span, .footer-second-part p span{
+  color: #df4141;
+}
+/* footer section  */
+.footer-part{
+  background-color: var(--secondary-color);
+  padding: 5%;
+}
+.footer-first-part{
+  justify-content: space-between;
+  align-items: start;
+
+}
+.footerfirst-part-box{
+  flex-direction: column;
+  width: 30%;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.footerfirst-part-box p:nth-child(1){
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+.number{
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color:#df4141;
+}
+.footer-form{
+  width: 100%;
+}
+.footer-form input{
+  padding: 1rem;
+  width: 100%;
+}
+.footer-form input:nth-child(1){
+  padding: 1rem;
+  display: block;
+  height: 3rem;
+  margin-top: 1.5rem;
+}
+.footer-form a{
+  border-radius: 0;
+  margin-top: 1.52rem;
+}
+.footer-second-part{
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+.footer-icon{
+  width: 15%;
+  justify-content: space-between;
+}
+.footer-second-part i{
+  padding: .5rem;
+  font-size: 1rem;
+  background-color: white;
+}
